@@ -16,7 +16,7 @@ import Logo from "../assets/images/Logo.svg";
 import Menuicon from "../assets/images/menu.svg";
 import Connecticon from "../assets/images/connecticon.svg";
 
-import { Navbar, Nav, Container, Row, Col } from "react-bootstrap";
+import { Navbar, Container} from "react-bootstrap";
 const Navigationbar = () => {
   const [navmenu, setNavmenu] = useState(false);
   const [connectmenu, setConnectmenu] = useState(false);
@@ -105,7 +105,7 @@ const Navigationbar = () => {
           </button>
           <Navbar.Brand className="logo">
             <Link to="/" className="logo-link">
-              <img src={Logo} className="logo-img" alt="" srcset="" />
+              <img src={Logo} className="logo-img" alt="Portfolio"/>
             </Link>
           </Navbar.Brand>
           <button

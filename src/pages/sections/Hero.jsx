@@ -90,7 +90,7 @@ const Hero = () => {
           <img src={evb} alt="EVBazaar" className="skills-icon" />
           <img src={p2r} alt="P2R" className="skills-icon" />
         </div>
-        <img src={Me} className="hero-image" />
+        <img src={Me} className="hero-image" alt="Aditya"/>
       </div>
     </div>
   );
