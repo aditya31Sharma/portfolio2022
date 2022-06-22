@@ -15,7 +15,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
-      {/* <Loader/> */}
+      <Loader/>
       <BrowserRouter>
       <Navigationbar />
         <Routes>
