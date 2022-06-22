@@ -11,6 +11,7 @@ import Contactme from "./pages/Contactme";
 
 import Navigationbar from "./components/Navigationbar";
 import Footer from "./components/Footer";
+import Loader from "./components/Loader";
 
 const App = () => {
   return (
