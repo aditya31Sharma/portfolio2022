@@ -278,6 +278,7 @@ footer {
   bottom: 0;
   right: 12rem;
   width: 612px;
+  pointer-events: none;
 }
 .page-bg-title {
   font-weight: 800;
