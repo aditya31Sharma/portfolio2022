@@ -30,7 +30,7 @@ const Hero = () => {
         <h1 className="title">
           Ideate. Wireframe.
           <br />
-          Prototype
+          Prototype.
         </h1>
       </Container>
       <div className="design page-bg-title">

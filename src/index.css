@@ -266,6 +266,7 @@ footer {
   display: grid;
   z-index: 500;
   place-items:center;
+  pointer-events: none;
 }
 .scrollanim-container img{
   width: 5vw;
@@ -295,6 +296,8 @@ footer {
   bottom: 0;
   right: 12rem;
   width: 612px;
+  max-width: 620px;
+
   pointer-events: none;
 }
 .page-bg-title {
