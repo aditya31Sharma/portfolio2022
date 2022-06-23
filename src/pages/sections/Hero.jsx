@@ -8,6 +8,8 @@ import xd from "../../assets/images/xd.svg";
 import hungama from "../../assets/images/Hungama.svg";
 import evb from "../../assets/images/EVBazaar.svg";
 import p2r from "../../assets/images/P2R.svg";
+import design from "../../assets/images/Design_header_bg.png";
+import scrollanim from "../../assets/GIFs/scrollanim.gif";
 import { Container } from "react-bootstrap";
 import { sociallinks } from "../../data";
 import { Link } from "react-router-dom";
@@ -31,8 +33,13 @@ const Hero = () => {
           Prototype
         </h1>
       </Container>
-      <div className="design page-bg-title">DESIGN</div>
+      <div className="design page-bg-title">
+        <img src={design} alt="DESIGN" />
+      </div>
       <div className="hero-image-container">
+        <div className="scrollanim-container">
+          <img src={scrollanim} alt="scroll" />
+        </div>
         <div className="social-links-hero-image">
           <a href={sociallinks[0].link} className="footer-link" target="blank">
             <LinkedinBoxFill size={24} className="link-icon linkedin" />
@@ -70,10 +77,12 @@ const Hero = () => {
             </p>
             <div className="hero-image-ctas">
               <Link to="/contactme" className="hero-cta primary-cta">
-                Let's work together!<ArrowUpRight size={24} className="arrow-link-icon " />
+                Let's work together!
+                <ArrowUpRight size={24} className="arrow-link-icon " />
               </Link>
               <Link to="/myworks" className="hero-cta secondary-cta">
-                Glance at my work <ArrowUpRight size={24} className="arrow-link-icon " />
+                Glance at my work{" "}
+                <ArrowUpRight size={24} className="arrow-link-icon " />
               </Link>
             </div>
           </div>
@@ -90,7 +99,7 @@ const Hero = () => {
           <img src={evb} alt="EVBazaar" className="skills-icon" />
           <img src={p2r} alt="P2R" className="skills-icon" />
         </div>
-        <img src={Me} className="hero-image" alt="Aditya"/>
+        <img src={Me} className="hero-image" alt="Aditya" />
       </div>
     </div>
   );
