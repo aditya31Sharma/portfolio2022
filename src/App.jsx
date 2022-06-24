@@ -16,7 +16,7 @@ import Loader from "./components/Loader";
 const App = () => {
   return (
     <>
-      {/* <Loader/> */}
+      <Loader/>
       <BrowserRouter>
       <Navigationbar />
         <Routes>
